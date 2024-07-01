@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+div.form_area > p {
+    display: inline;
+}
+
+div.form_area > input {width: 40px;}

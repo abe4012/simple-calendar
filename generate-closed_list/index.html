@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>休業日の入力</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <h2>↓土曜日休業(区分1)(Month)↓</h2>
+    <div class="form_area" id="form_area_6">
+        <input type="number" class="month_6"><p class="text_month_6">月</p>
+        <br class="br_6">
+    </div>
+    <br>
+    <button type="button" onclick="addForm(satTxt)">入力欄を追加</button>
+    <button type="button" onclick="removeForm(satTxt)">入力欄を削除</button>
+    <br><br>
+
+    <h2>↓日曜日休業(区分2)(Month)↓</h2>
+    <div class="form_area" id="form_area_0">
+        <input type="number" class="month_0"><p class="text_month_0">月</p>
+        <br class="br_0">
+    </div>
+    <br>
+    <button type="button" onclick="addForm(sunTxt)">入力欄を追加</button>
+    <button type="button" onclick="removeForm(sunTxt)">入力欄を削除</button>
+    <br><br>
+
+    <h2>↓休業日(区分1)↓</h2>
+    <div class="form_area" id="form_area_store">
+        <input type="number" class="month_store"><p class="text_month_store">月</p>
+        <input type="number" class="day_store"><p class="text_day_store">日</p>
+        <br class="br_store">
+    </div>
+    <br>
+    <button type="button" onclick="addForm(storeTxt)">入力欄を追加</button>
+    <button type="button" onclick="removeForm(storeTxt)">入力欄を削除</button>
+    <br><br>
+
+    <h2>↓休業日(区分2)↓</h2>
+    <div class="form_area" id="form_area_comp">
+        <input type="number" class="month_comp"><p class="text_month_comp">月</p>
+        <input type="number" class="day_comp"><p class="text_day_comp">日</p>
+        <br class="br_comp">
+    </div>
+    <br>
+    <button type="button" onclick="addForm(compTxt)">入力欄を追加</button>
+    <button type="button" onclick="removeForm(compTxt)">入力欄を削除</button>
+    <br><br><br>
+    <button type="button" onclick="saveFile()">保存する</button>
+    <br>
+
+
+    <!--
+    <textarea name="Msg" rows=4 cols=30></textarea>
+    -->
+
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
